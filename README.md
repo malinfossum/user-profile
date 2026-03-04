@@ -6,7 +6,7 @@ A small interactive web application where the user can enter their name, age, an
 
 - Updates user information dynamically
 - Uses parameters and global state variables
-- Implements basic input validation with if/else
+- Reads input values via `this.value`
 - Changes background color based on user selection
 - Re-renders the view using a simple MVC-inspired structure
 
@@ -14,9 +14,9 @@ A small interactive web application where the user can enter their name, age, an
 
 - Parameters
 - Variables (state management)
-- this.value
-- Basic if/else validation
-- DOM manipulation
+- `this.value`
+- Functions returning HTML
+- DOM updates via re-rendering
 
 ## Run
 
